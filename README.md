@@ -8,13 +8,11 @@ A full-stack MERN project management app with real-time collaboration and Kanban
 
 ## Tech Stack
 
-| Layer | Technology |
-|-------|-----------|
-| Frontend | React 18 + Vite + Tailwind CSS |
-| Backend | Node.js + Express.js |
-| Database | MongoDB Atlas |
-| Auth | JWT + bcryptjs |
-| Real-time | Socket.IO |
+- **Frontend** — React 18 + Vite + Tailwind CSS
+- **Backend** — Node.js + Express.js
+- **Database** — MongoDB Atlas
+- **Auth** — JWT + bcryptjs
+- **Real-time** — Socket.IO
 
 ---
 
