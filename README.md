@@ -29,20 +29,20 @@ A full-stack MERN project management app with real-time collaboration and Kanban
 
 ## Getting Started
 
-```bash
+```
 git clone https://github.com/Adarsh1212-21/Team-Task-Manager.git
 cd Team-Task-Manager
 ```
 
 **Backend:**
-```bash
+```
 cd server
 npm install
 npm start
 ```
 
 **Frontend:**
-```bash
+```
 cd client
 npm install
 npm run dev
