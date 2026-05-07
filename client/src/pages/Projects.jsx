@@ -148,10 +148,15 @@ const Projects = () => {
   };
 
   const handleDelete = async (id) => {
-    if (!window.confirm('Delete this project and all its tasks?')) return;
+  if (!window.confirm('Delete this project and all its tasks?')) return;
+  try {
     await projectAPI.delete(id);
     setProjects((prev) => prev.filter((p) => p._id !== id));
-  };
+  } catch (err) {
+    console.error('Delete error:', err.response?.status, err.response?.data);
+    alert(err.response?.data?.message || 'Failed to delete project');
+  }
+};
 
   const handleEdit = (project) => {
     setEditProject({
