@@ -29,27 +29,27 @@ A full-stack MERN project management app with real-time collaboration and Kanban
 
 ## Getting Started
 
-```
+
 git clone https://github.com/Adarsh1212-21/Team-Task-Manager.git
 cd Team-Task-Manager
-```
+
 
 **Backend:**
-```
+
 cd server
 npm install
 npm start
-```
+
 
 **Frontend:**
-```
+
 cd client
 npm install
 npm run dev
-```
+
 
 **Required Environment Variables:**
-```env
+env
 # server/.env
 MONGO_URI=your_mongodb_uri
 JWT_SECRET=your_secret_key
@@ -58,7 +58,7 @@ CLIENT_URL=http://localhost:5173
 # client/.env
 VITE_API_URL=http://localhost:5000
 VITE_SOCKET_URL=http://localhost:5000
-```
+
 
 ---
 
