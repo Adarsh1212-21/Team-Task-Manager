@@ -1,4 +1,4 @@
-# TeamBoard — Project Management App
+# Team Flow — Project Management App
 
 A full-stack MERN project management app with real-time collaboration and Kanban board.
 
